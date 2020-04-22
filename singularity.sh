@@ -7,8 +7,8 @@
 #SBATCH --gres=gpu:1                    # We need one GPU
 #SBATCH --mail-user=yngvemoe@nmbu.no    # Email me when job is done.
 #SBATCH --mail-type=ALL                 # Please e-mail me about all messages regarding this job
-#SBATCH --output=keras-mnist%A_%a.out   # The output from the file will be stored in a file with this name
-#SBATCH --error=keras-mnist%A_%a.out    # The error messages will be stored in a file with this name
+#SBATCH --output=keras-mnist-%A_%a.out   # The output from the file will be stored in a file with this name
+#SBATCH --error=keras-mnist-%A_%a.out    # The error messages will be stored in a file with this name
 
 # Modify the code above to suit your preferences
 
