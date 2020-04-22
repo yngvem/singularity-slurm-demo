@@ -1,4 +1,5 @@
 # Code from: https://keras.io/examples/mnist_cnn/
+
 from __future__ import print_function
 import keras
 from keras.datasets import mnist
