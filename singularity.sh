@@ -16,4 +16,4 @@
 module load singularity
 
 ## Run the keras-mnist.py file from the singularity container keras_test.sif with access to a GPU
-singularity exec --nv keras_test.sif python keras-mnist.py
+singularity exec --nv keras_test.sif python keras_test.py
